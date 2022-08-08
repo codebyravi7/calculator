@@ -1,0 +1,38 @@
+/* body{
+    background-image: url("bg.jpg");
+} */
+.button{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 6px;
+}
+#buttons{
+    border: 3px solid red;
+    text-align: center;
+    
+
+}
+
+#screen{
+    border: 3px solid rgb(159, 169, 198);
+    background-color: aliceblue;
+    height: 78px;
+    width: 194px;
+}
+#screen .input{
+    width: 11.7rem;
+    height: 4.5rem;
+}
+    
+
+#container{
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 199px;
+    height: 247.5px;
+    margin: 13rem auto;
+    align-items: center;
+    background-color: aqua;
+}
